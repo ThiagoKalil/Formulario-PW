@@ -1,0 +1,94 @@
+                            body {
+                            background-color: #1b1b1b;
+                        }
+                        
+                        .bg-header {
+                            background: url("../img/dark.jpg");
+                            background-size: cover;
+                        }
+                        
+                        .display-4 {
+                            line-height: 3;
+                        }
+                        
+                        .text-header {
+                            font-family: 'star';
+                            font-weight: bold;
+                            font-size: 3rem;
+                            position: relative;
+                            top: 30px;
+                            color: rgb(246, 245, 162);
+                            text-shadow: 0 0.05rem 0.15rem rgb(0, 0, 0);
+                        }
+                        
+                        .form-control {
+                            color: #f8f8f8;
+                            background-color: rgba(61, 61, 61, 0.767);
+                            border-color: rgba(61, 61, 61, 0.767);
+                        }
+                        
+                        .form-control:focus {
+                            color: #f8f8f8;
+                            background-color: rgba(41, 41, 41, 0.767);
+                            border-color: #d10000c7;
+                            outline: 0;
+                            box-shadow: 0 0 0 0.15rem rgba(46, 0, 0, 0.199);
+                        }
+                        
+                        .btn-color {
+                            background-color: rgb(110, 0, 0);
+                        }
+                        
+                        @font-face {
+                            font-family: 'star';
+                            src: url('starjedi.ttf') format('truetype');
+                        }
+                        
+                        @media (max-width: 575.98px) {
+                            body {
+                                font-size: 0.9rem;
+                            }
+                            .display-4 {
+                                font-size: 2rem;
+                                font-weight: bold;
+                                line-height: 0.6;
+                            }
+                            .bg-header {
+                                background-image: linear-gradient(to bottom right, #5c0000, #000000);
+                            }
+                            .text-header {
+                                font-size: 3rem;
+                                position: relative;
+                                top: auto;
+                                color: white;
+                            }
+                            /* Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+                            @media (max-width: 767.98px) {
+                                body {
+                                    font-size: 0.9rem;
+                                }
+                                .bg-header {
+                                    background-image: linear-gradient(to bottom right, #5c0000, #000000);
+                                }
+                                .text-header {
+                                    font-size: 3rem;
+                                    position: relative;
+                                    top: auto;
+                                    color: white;
+                                }
+                                .display-4 {
+                                    font-size: 2.5rem;
+                                    font-weight: bold;
+                                    line-height: 0.6;
+                                }
+                            }
+                            /* Dispositivos médios (tablets com menos de 992px)*/
+                            @media (max-width: 991.98px) {
+                                .display-4 {
+                                    font-size: 2.5rem;
+                                    font-weight: bold;
+                                    line-height: 0.9;
+                                }
+                            }
+                            /* Dispositivos large (desktops com menos de 1200px)*/
+                            /* @media (max-width: 1199.98px) {}*/
